@@ -26,5 +26,5 @@ public class Sistema_Operacional {
     public Computador getPC(){
         return PC; }
     public void setPC(Computador PC)
-    { this.PC = PC; }
+        {  this.PC = PC; }
 }

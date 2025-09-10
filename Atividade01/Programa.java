@@ -14,16 +14,24 @@ public class Programa {
     }
 
     // Getters e Setters
-    public int getMemoriaRAMAlocada() { return memoriaRAMAlocada; }
-    public void setMemoriaRAMAlocada(int memoriaRAMAlocada) { this.memoriaRAMAlocada = memoriaRAMAlocada;}
+    public int getMemoriaRAMAlocada(){
+            return memoriaRAMAlocada; }
+    public void setMemoriaRAMAlocada(int memoriaRAMAlocada)
+            { this.memoriaRAMAlocada = memoriaRAMAlocada;}
 
-    public int getSSDOcupado() { return SSDOcupado; }
-    public void setSSDOcupado(int SSDOcupado) { this.SSDOcupado = SSDOcupado; }
+    public int getSSDOcupado(){
+            return SSDOcupado; }
+    public void setSSDOcupado(int SSDOcupado)
+            { this.SSDOcupado = SSDOcupado; }
 
-    public int getNucleos() { return nucleos; }
-    public void setNucleos(int nucleos) { this.nucleos = nucleos; }
+    public int getNucleos(){
+            return nucleos; }
+    public void setNucleos(int nucleos)
+            { this.nucleos = nucleos; }
 
-    public int getQuantidadeOperacoes() { return quantidadeOperacoes; }
-    public void setQuantidadeOperacoes(int quantidadeOperacoes) { this.quantidadeOperacoes = quantidadeOperacoes; }
+    public int getQuantidadeOperacoes(){
+            return quantidadeOperacoes; }
+    public void setQuantidadeOperacoes(int quantidadeOperacoes)
+            { this.quantidadeOperacoes = quantidadeOperacoes; }
 }
 
