@@ -31,5 +31,5 @@ public class Computador {
     public float getOperacoesPorSegundo(){
             return operacoesPorSegundo; }
     public void setOperacoesPorSegundo(float operacoesPorSegundo)
-            { this.operacoesPorSegundo = operacoesPorSegundo;  }
+            { this.operacoesPorSegundo = operacoesPorSegundo; }
 }
