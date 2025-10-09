@@ -5,7 +5,7 @@ public class Funcionario extends Pessoa {
 
 
     public Funcionario(String nome, String email, String cargo) {
-        super(nome, email); // Chama o construtor da classe mãe (Pessoa)
+        super(nome, email);
         this.cargo = cargo;
     }
 

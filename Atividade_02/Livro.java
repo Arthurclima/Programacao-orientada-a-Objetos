@@ -5,7 +5,7 @@ public class Livro extends Material {
 
 
     public Livro(String titulo, int anoPublicacao, String autor) {
-        super(titulo, anoPublicacao); // Chama o construtor da classe mãe (Material)
+        super(titulo, anoPublicacao);
         this.autor = autor;
     }
 

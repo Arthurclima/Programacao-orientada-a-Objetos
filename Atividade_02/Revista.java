@@ -4,7 +4,7 @@ public class Revista extends Material {
     private int edicao;
 
     public Revista(String titulo, int anoPublicacao, int edicao) {
-        super(titulo, anoPublicacao); // Chama o construtor da classe mãe (Material)
+        super(titulo, anoPublicacao);
         this.edicao = edicao;
     }
 

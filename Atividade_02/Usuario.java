@@ -4,7 +4,7 @@ public class Usuario extends Pessoa {
     private int matricula;
 
     public Usuario(String nome, String email, int matricula) {
-        super(nome, email); // Chama o construtor da classe mãe (Pessoa)
+        super(nome, email);
         this.matricula = matricula;
     }
 

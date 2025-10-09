@@ -6,7 +6,6 @@ public class Emprestimo {
     private String dataEmprestimo;
     private String dataDevolucao;
 
-    // Construtor
     public Emprestimo(Pessoa pessoa, Material material, String dataEmprestimo, String dataDevolucao) {
         this.pessoa = pessoa;
         this.material = material;
