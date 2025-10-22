@@ -13,6 +13,13 @@ public class Main {
 
         int opcao;
 
+        //Exemplo 01
+        Instituicao v1 = new Instituicao("UCB", "12345678", "Brasilia");
+        Livro v2= new Livro("Chapeu", 2025, "Arthur");
+        Emprestimo e1= new Emprestimo((Tomador_Emprestimo) v1, (ItemEmprestado) v2, "11/10/2025", "22/10/2025");
+        emprestimos.add(e1);
+
+
         do {
             System.out.println("===== SISTEMA DE BIBLIOTECA =====");
             System.out.println("1 - Cadastrar Usuário");
@@ -116,8 +123,8 @@ public class Main {
                     System.out.print("Data de devolução: ");
                     String dataD = sc.nextLine();
 
-                    emprestimos.add(new Emprestimo(pessoas.get(idxUsuario),
-                                                   materiais.get(idxMaterial),
+                    emprestimos.add(new Emprestimo((Tomador_Emprestimo) pessoas.get(idxUsuario),
+                            (ItemEmprestado) materiais.get(idxMaterial),
                                                    dataE, dataD));
                     System.out.println("Empréstimo cadastrado!\n");
                     break;

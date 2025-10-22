@@ -1,6 +1,6 @@
 package Atividade_02;
 
-public abstract class Material {
+public abstract class Material implements ItemEmprestado {
     private String titulo;
     private Integer anoPublicacao;
 
