@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
 
         ArrayList<Pessoa> pessoas = new ArrayList<>();
@@ -122,11 +122,19 @@ public class Main {
                     String dataE = sc.nextLine();
                     System.out.print("Data de devolução: ");
                     String dataD = sc.nextLine();
-
+                    try {
                     emprestimos.add(new Emprestimo((Tomador_Emprestimo) pessoas.get(idxUsuario),
                             (ItemEmprestado) materiais.get(idxMaterial),
                                                    dataE, dataD));
                     System.out.println("Empréstimo cadastrado!\n");
+                    }
+                    catch (Exception e) {
+                        System.out.println("Algo deu errado.");
+                    }
+
+                    finally {
+                        System.out.println("Empréstimo não cadastrado.");
+                    }
                     break;
 
                 case 8:
